@@ -22,9 +22,9 @@ public class AlternativesEntity {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    private String descritpion;
+    private String description;
 
-    private boolean isCorret;
+    private boolean isCorrect;
     
     @CreationTimestamp
     private LocalDateTime createdAt;
